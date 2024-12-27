@@ -1,0 +1,242 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 224 144)
+	(text "sdi" (rect 5 0 19 12)(font "Arial" ))
+	(text "inst" (rect 8 112 25 124)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "rst_tx" (rect 0 0 28 12)(font "Arial" ))
+		(text "rst_tx" (rect 21 27 49 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "tx_pclk" (rect 0 0 35 12)(font "Arial" ))
+		(text "tx_pclk" (rect 21 43 56 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "tx_sd_refclk_270" (rect 0 0 84 12)(font "Arial" ))
+		(text "tx_sd_refclk_270" (rect 21 59 105 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "txdata[19..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "txdata[19..0]" (rect 21 75 83 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 208 32)
+		(output)
+		(text "sdi_tx[0..0]" (rect 0 0 55 12)(font "Arial" ))
+		(text "sdi_tx[0..0]" (rect 132 27 187 39)(font "Arial" ))
+		(line (pt 208 32)(pt 192 32)(line_width 3))
+	)
+	(port
+		(pt 208 48)
+		(output)
+		(text "tx_status[0..0]" (rect 0 0 71 12)(font "Arial" ))
+		(text "tx_status[0..0]" (rect 116 43 187 55)(font "Arial" ))
+		(line (pt 208 48)(pt 192 48)(line_width 3))
+	)
+	(parameter
+		"QTB"
+		"on"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_direction"
+		"Tx"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_test_pattern"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_num_channels"
+		"1"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_standard"
+		"SD"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_rate_flag"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_crc_flag"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_enable_soft_serdes"
+		"true"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_tx_clk_option"
+		"no_pll"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_rx_clk_option"
+		"no_pll"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_fvh_flag"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_os_mode"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_serdes_type"
+		" "
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_tcvr_protocol_select"
+		"tcvr_protocol"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_starting_channel_number"
+		"0"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_debugMode"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_devicefamily"
+		"Cyclone III"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_dlparam"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_dsparam"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_duplex"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_hdparam"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_mrparam"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText0"
+		"Not applicable for the selected device familly."
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText1"
+		" "
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText2"
+		" "
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText3"
+		" "
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText4"
+		" "
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_multiXcvrText5"
+		" "
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_rx"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_sdparam"
+		"true"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_starting_channel_text_0"
+		"Each SDI core must have a unique starting channel number."
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_starting_channel_text_1"
+		"See ALTERA GXB or SDI user guide for more info."
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_threegparam"
+		"false"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"QTB_tx"
+		"true"
+		""
+		(type "PARAMETER_STRING")	)
+	(drawing
+		(rectangle (rect 16 16 192 112)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 224 -64 324 16))
+)

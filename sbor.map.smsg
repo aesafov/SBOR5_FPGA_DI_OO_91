@@ -1,0 +1,3 @@
+Info (10281): Verilog HDL Declaration information at spi.v(5): object "SS" differs only in case from object "ss" in the same scope
+Info (10281): Verilog HDL Declaration information at spi.v(5): object "SCLK" differs only in case from object "sclk" in the same scope
+Info (10281): Verilog HDL Declaration information at spi.v(5): object "MOSI" differs only in case from object "mosi" in the same scope

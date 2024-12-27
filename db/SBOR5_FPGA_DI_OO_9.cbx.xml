@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="SBOR5_FPGA_DI_OO_9">
+		<CBX_INST_ENTRY INSTANCE_NAME="|main_part|pll9:inst1|altpll:altpll_component" CBX_FILE_NAME="pll9_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>
